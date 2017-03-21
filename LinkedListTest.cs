@@ -6,7 +6,7 @@
     /// Generic, dynamic data structure which works with references.
     /// </summary>
     /// <typeparam name="TType">The data type you want to store in the list.</typeparam>
-    class LinkedList<TType>
+    public class LinkedList<TType>
     {
         /// <summary>
         /// Single element which holds its current value and the reference of the next element.
